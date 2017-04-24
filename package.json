@@ -1,0 +1,26 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "some service",
+  "main": "index.js",
+  "scripts": {
+    "test": "start_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An1on/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "An1on",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/An1on/nodejs/issues"
+  },
+  "homepage": "https://github.com/An1on/nodejs#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
