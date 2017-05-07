@@ -4,7 +4,7 @@
   "description": "some service",
   "main": "index.js",
   "scripts": {
-    "test": "start_test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,12 @@
   "homepage": "https://github.com/An1on/nodejs#readme",
   "devDependencies": {
     "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-router": "^7.1.1"
   }
 }
