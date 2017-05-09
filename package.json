@@ -4,17 +4,14 @@
   "description": "some service",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
     "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/An1on/nodejs.git"
   },
-  "keywords": [
-    "nodejs"
-  ],
-  "author": "An1on",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/An1on/nodejs/issues"
   },
@@ -23,7 +20,15 @@
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-react": "^6.10.3",
+    "koa-static": "^3.0.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-es2015",
+      "react"
+    ]
   },
   "dependencies": {
     "koa": "^2.2.0",
